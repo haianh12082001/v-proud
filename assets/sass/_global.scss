@@ -1,0 +1,38 @@
+@font-face {
+    font-family: "UTM";
+    font-display: swap;
+    src: url("../fonts/word/UTM\ AvoBold.ttf") format("truetype");
+}
+@font-face {
+    font-family: "SAN";
+    font-display: swap;
+    src: url("../fonts/word/SanFranciscoDisplay-Medium.otf") format("truetype");
+}
+body {
+    font-family: $font-family;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-size: 16px;
+    color: $text-color;
+}
+.container {
+    max-width: 1230px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.gutters-5 {
+    margin-left: -5px;
+    margin-right: -5px;
+}
+.gutters-5 [class^="col-"] {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.truncate-h {
+    overflow: hidden;
+    word-break: break-word;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}
