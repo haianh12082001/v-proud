@@ -1537,7 +1537,7 @@ body {
   text-decoration: uppercase;
 }
 .tab-news .hot-article {
-  transition: all 3s ease;
+  transition: all 0.3s ease;
 }
 .tab-news .hot-article:hover {
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
