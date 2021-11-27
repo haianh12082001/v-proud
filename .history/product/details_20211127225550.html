@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="../assets/fonts/fontawesome-free-5.15.3/css/all.min.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+            integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+            crossorigin="anonymous"
+        />
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+        <link rel="stylesheet" href="../assets/css/app.css" />
+    </head>
+    <body>
+        <a href="" id="back-to-top">
+            <i class="fas fa-arrow-up"></i>
+        </a>
+        <div class="opacity__menu"></div>
+        <header>
+            <div class="top-header">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-2 col-md-2">
+                            <a href="" class="logo">
+                                <img src="../assets/img/logo (12) 1.png" alt="" class="img-fluid" />
+                            </a>
+                        </div>
+                        <div class="col-lg-7 col-md-7">
+                            <form class="search-top" action="">
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <select class="form-control" name="" id="">
+                                            <option value="">Loại sản phẩm</option>
+                                            <option value="">Thiết bị đo cầm tay</option>
+                                            <option value="">Dưỡng kiểm</option>
+                                            <option value="">Thiết bị hiệu chuẩn</option>
+                                            <option value="">Thiết bị kiểm tra ngoại quan</option>
+                                        </select>
+                                    </div>
+                                    <input type="text" class="form-control" autocomplete="off" name="keyword" placeholder="Nhập tìm kiếm bằng từ khoá...." />
+                                    <div class="input-group-append">
+                                        <button type="submit" class="btn btn-search">
+                                            <i class="fas fa-search"></i>
+                                            <span>Tìm kiếm</span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-lg-3 col-md-3 d-flex align-items-center justify-content-between">
+                            <a href="">
+                                <i class="fas fa-shopping-cart icon-cart"></i>
+                            </a>
+                            <div class="user d-flex align-items-center">
+                                <a href="#">
+                                    <i class="fas fa-user-circle icon-user"></i>
+                                </a>
+                                <div class="body">
+                                    <div class="login">
+                                        <a href="">Đăng ký</a>
+                                        /
+                                        <a href="">Đăng nhập</a>
+                                    </div>
+                                    <div class="account">
+                                        <span>Tài khoản</span>
+                                        <i class="fas fa-sort-down"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="icon-bar d-flex align-items-center justify-content-center">
+                                <i class="fas fa-bars bar__mobi"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header-mobi">
+                <div class="container">
+                    <div class="row align-items-center justify-content-between">
+                        <div class="logo">
+                            <img src="../assets/img/logo (12) 1.png" alt="" />
+                        </div>
+                        <div class="icon-mobi">
+                            <div class="icon-search">
+                                <i class="fas fa-search search-icon--mobi"></i>
+                            </div>
+                            <div class="icon-bar">
+                                <i class="fas fa-bars bar__mobi"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="search-mobi">
+                <form action="" method="get" class="search-form">
+                    <div class="search-input">
+                        <input type="text" name="keywords" class="search-control" placeholder="Từ khoá tìm kiếm" />
+                        <div class="mobile-search">
+                            <button class="search" type="submit">
+                                <i class="fas fa-search"></i>
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="menu">
+                <div class="menu-container container">
+                    <ul class="menu-list">
+                        <li>
+                            <a href="" class="menu-link">panme</a>
+                        </li>
+                        <li>
+                            <a href="" class="menu-link">caliper</a>
+                        </li>
+                        <li>
+                            <a href="" class="menu-link">tên danh mục</a>
+                            <ul class="sub-menu">
+                                <li>
+                                    <a href="" class="sub-link">tên danh mục</a>
+                                </li>
+                                <li>
+                                    <a href="" class="sub-link">tên danh mục</a>
+                                </li>
+                                <li>
+                                    <a href="" class="sub-link">tên danh mục</a>
+                                </li>
+                                <li>
+                                    <a href="" class="sub-link">tên danh mục</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="" class="menu-link">tên danh mục</a>
+                        </li>
+                        <li>
+                            <a href="" class="menu-link">tên danh mục</a>
+                        </li>
+                        <li>
+                            <a href="" class="menu-link">tên danh mục</a>
+                        </li>
+                        <li>
+                            <a href="" class="menu-link">tên danh mục</a>
+                        </li>
+                        <li>
+                            <a href="" class="menu-link">tên danh mục</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="mobile-menu">
+                <div>
+                    <a href="">
+                        <i class="fas fa-user-plus"></i>
+                        <div>Đăng ký / Đăng nhập</div>
+                    </a>
+                </div>
+                <div>
+                    <a href="">
+                        <i class="fas fa-shopping-cart"></i>
+                        <div>Giỏ hàng</div>
+                    </a>
+                </div>
+            </div>
+            <div class="header">
+                <ul class="header-list">
+                    <li class="header-item text-center">
+                        <img src="../assets/img/logo (12) 1.png" alt="" />
+                    </li>
+                    <li class="header-item">
+                        <a href="" class="header-link">Trang chủ</a>
+                    </li>
+                    <li class="header-item">
+                        <a href="" class="header-link">Giới thiệu</a>
+                    </li>
+                    <li class="header-item">
+                        <a href="" class="header-link">Sản phẩm</a>
+                        <ul class="sub-header">
+                            <li>
+                                <a href="">Tên danh mục</a>
+                            </li>
+                            <li>
+                                <a href="">Tên danh mục</a>
+                            </li>
+                            <li>
+                                <a href="">Tên danh mục</a>
+                            </li>
+                            <li>
+                                <a href="">Tên danh mục</a>
+                            </li>
+                            <li>
+                                <a href="">Tên danh mục</a>
+                            </li>
+                            <li>
+                                <a href="">Tên danh mục</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="header-item">
+                        <a href="" class="header-link">Tin tức</a>
+                    </li>
+                    <li class="header-item">
+                        <a href="" class="header-link">Dịch vụ</a>
+                    </li>
+                    <li class="header-item">
+                        <a href="" class="header-link">Đào tạo</a>
+                    </li>
+                    <li class="header-item">
+                        <a href="" class="header-link">Liên hệ</a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+        <div class="box-breadcrumb">
+            <div class="container">
+                <ul class="breadcrumb">
+                    <li class="breadcrumb-item">
+                        <a href="#">Trang chủ</a>
+                    </li>
+                    <li class="breadcrumb-item active">
+                        <a href="#">Sản phẩm</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <section class="product-details">
+            <div class="container">
+                <h1>Hexagon Cmm Explorer Classic – Giải Pháp Chi Phí Tuyệt Vời</h1>
+                <hr />
+                <div class="row box-main">
+                    <div class="col-lg-7">
+                        <div class="box-silder">
+                            <div class="item">
+                                <a href="">
+                                    <img src="../assets/img/tab/Rectangle 369.png" alt="" />
+                                </a>
+                            </div>
+                            <div class="item">
+                                <a href="">
+                                    <img src="../assets/img/tab/Rectangle 369.png" alt="" />
+                                </a>
+                            </div>
+                            <div class="item">
+                                <a href="">
+                                    <img src="../assets/img/tab/Rectangle 369.png" alt="" />
+                                </a>
+                            </div>
+                        </div>
+                        <div class="scrolling-inner">
+                            <div class="item">
+                                <a href="" data-toggle="modal" data-target="#video">
+                                    <div class="item-border">
+                                        <img src="../assets/img/tab/Vector (6).png" alt="" />
+                                    </div>
+                                </a>
+                                <p>Điểm nổi bật</p>
+                            </div>
+                            <div class="item">
+                                <a href="">
+                                    <div class="item-border">
+                                        <img src="../assets/img/tab/Vector (Stroke).png" alt="" />
+                                    </div>
+                                    <p>1 Video</p>
+                                </a>
+                            </div>
+                            <div class="item">
+                                <a href="">
+                                    <div class="item-border">
+                                        <img src="../assets/img/tab/Vector (Stroke) (1).png" alt="" />
+                                    </div>
+                                    <p>Thông số kỹ thuật</p>
+                                </a>
+                            </div>
+                            <div class="item">
+                                <a href="">
+                                    <div class="item-border">
+                                        <img src="../assets/img/tab/Vector (7).png" alt="" />
+                                    </div>
+                                    <p>Bài viết đánh giá</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="policy">
+                            <div class="row">
+                                <div class="col-lg-6 item">
+                                    <div class="icon">
+                                        <img src="../assets/img/tab/image 6.png" alt="" />
+                                    </div>
+                                    <p>
+                                        Hư gì đổi nấy <b>12 tháng</b> tại 2844 siêu thị toàn quốc (miễn phí tháng đầu)
+                                        <a href="https://www.thegioididong.com/chinh-sach-bao-hanh-san-pham"></a>
+                                        <a href="" title="Chính sách đổi trả"> Xem chi tiết </a>
+                                    </p>
+                                </div>
+                                <div class="col-lg-6 item">
+                                    <div class="icon">
+                                        <img src="../assets/img/tab/image 7.png" alt="" />
+                                    </div>
+                                    <p>Bảo hành <b>chính hãng điện thoại 1 năm</b></p>
+                                </div>
+                                <div class="col-lg-6 item">
+                                    <div class="icon">
+                                        <img src="../assets/img/tab/image 8.png" alt="" />
+                                    </div>
+                                    <p>Bộ sản phẩm gồm: Dây nguồn, Sách hướng dẫn, Bao da, Thùng máy, Sạc Laptop Asus</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="article">
+                            <div class="content">
+                                <div class="title">Bài viết đánh giá</div>
+                                <div class="box-content">
+                                    <p>
+                                        Cùng bạn đối đầu mọi thách thức trên chiến trường ảo nhờ bộ vi xử lý mạnh mẽ AMD và phong cách thiết kế độc đáo, khẳng
+                                        định chất tôi riêng của siêu phẩm độc nhất vô nhị Asus ROG Zephyrus Gaming G14 Alan Walker (K2064T), hứa hẹn sẽ mang đến
+                                        những trải nghiệm tuyệt hảo khó quên cho người dùng. Nếu là một fan của Alan Walker thì đây chính là sản phẩm bạn không
+                                        thể bỏ lỡ. Ngoại hình đơn giản, ấn tượng nhưng không kém phần cá tính Đập vào mắt người dùng là 2 mảnh vải đen thêu chữ
+                                        trắng nổi bật được ốp trên nắp lưng máy được làm thủ công hoàn toàn bằng tay, phía góc dưới là chữ ký của chính DJ Alan
+                                        Walker được khắc bằng laser tinh xảo, đảm bảo mọi ánh nhìn xung quanh sẽ đổ dồn về chủ nhân sở hữu siêu phẩm này. Một
+                                        điểm đặc biệt trên chiếc Asus ROG này là công nghệ Anime Matrix, bạn hoàn toàn có thể tự thiết kế dải đèn với 1.215 đèn
+                                        LED mini trên lưng máy theo những hình ảnh yêu thích bằng chính phần mềm có sẵn ở laptop.
+                                    </p>
+                                </div>
+                                <div class="article-btn">
+                                    <span class="d-flex align-items-center justify-content-center">
+                                        <p class="expand active">Xem thêm</p>
+                                        <p class="collapse">Thu gọn</p>
+                                        <i class="fas fa-caret-right"></i>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="box-price">
+                            <div class="trademark">Hãng: <a href="">Asus</a></div>
+                            <div class="price">
+                                <p>Giá:</p>
+                                <div class="price-present">134,500 VNĐ</div>
+                                <div class="price-old">269,000 VNĐ</div>
+                            </div>
+                            <div class="vat">
+                                <i>(Giá trên chưa bao gồm VAT 10%)</i>
+                            </div>
+                            <a href="" class="submit btn-red">MUA NGAY</a>
+                            <a href="" class="submit btn-grey">THÊM VÀO GIỎ HÀNG</a>
+                            <div class="reference">Tham khảo dịch vụ<a href="">Hiệu chuẩn và sửa chữa</a></div>
+                        </div>
+                        <div class="parameter">
+                            <div class="name">
+                                Cấu hình Laptop Asus ROG Zephyrus G14 Alan Walker GA401QEC R9 5900HS/16GB 1TB/4GB RTX3050Ti/120Hz/Túi/Win10 (K2064T)
+                            </div>
+                            <ul>
+                                <li>
+                                    <p class="lileft">CPU:</p>
+                                    <div class="liright">Lorem ipsum dolor sit.</div>
+                                </li>
+                                <li>
+                                    <p class="lileft">CPU:</p>
+                                    <div class="liright">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, eaque.</div>
+                                </li>
+                                <li>
+                                    <p class="lileft">CPU:</p>
+                                    <div class="liright">Lorem ipsum dolor sit.</div>
+                                </li>
+                                <li>
+                                    <p class="lileft">CPU:</p>
+                                    <div class="liright">Lorem ipsum dolor sit.</div>
+                                </li>
+                                <li>
+                                    <p class="lileft">CPU:</p>
+                                    <div class="liright">Lorem ipsum dolor sit.</div>
+                                </li>
+                                <li>
+                                    <p class="lileft">CPU:</p>
+                                    <div class="liright">Lorem ipsum dolor sit.</div>
+                                </li>
+                                <li>
+                                    <p class="lileft">CPU:</p>
+                                    <div class="liright">Lorem ipsum dolor sit.</div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container mt-3">
+                <div class="same">
+                    <div class="d-flex justify-content-between">
+                        <div class="left">SẢN PHẨM CÙNG DANH MỤC</div>
+                        <div class="right">
+                            Xem tất cả
+                            <i class="fas fa-chevron-right"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-main">
+                    <div class="row no-gutters row-cols-lg-5 product-list">
+                        <div class="col-lg product-item col-md-3 col-6">
+                            <a href="">
+                                <div class="product-img">
+                                    <img src="../assets/img/product/Rectangle 355.png" alt="" />
+                                </div>
+                            </a>
+                            <div class="product-body">
+                                <a href="">
+                                    <div class="product-name">Máy đo độ nhám TESA Rugosurf 20</div>
+                                </a>
+                                <div class="product-price--old">15.555.612 vnd</div>
+                                <div class="product-price">12.534.000VNĐ</div>
+                                <div class="rating">
+                                    <div class="d-flex">
+                                        <div class="icon">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                        <div class="rating-total">119</div>
+                                    </div>
+                                    <div class="product-cart">
+                                        <a href="">
+                                            <i class="fas fa-cart-plus"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="product-discount">-10%</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="service">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="item">
+                            <div class="icon">
+                                <i class="fas fa-truck-moving"></i>
+                            </div>
+                            <div class="body">
+                                <div class="title">Giao miễn phí</div>
+                                <div class="des">Cho đơn hàng trên 5 triệu</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="item">
+                            <div class="icon">
+                                <i class="fas fa-sync-alt"></i>
+                            </div>
+                            <div class="body">
+                                <div class="title">30 ngày đổi trả</div>
+                                <div class="des">Đổi trả miễn phí</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="item">
+                            <div class="icon">
+                                <i class="fas fa-medal"></i>
+                            </div>
+                            <div class="body">
+                                <div class="title">chất lượng uy tín</div>
+                                <div class="des">Từ các thương hiệu lớn</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="item">
+                            <div class="icon">
+                                <i class="fas fa-headphones"></i>
+                            </div>
+                            <div class="body">
+                                <div class="title">Hỗ trợ miễn phí</div>
+                                <div class="des">Hỗ trợ 24/7</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-7">
+                        <div class="footer-name">CÔNG TY CỔ PHẦN V-PROUD</div>
+                        <div class="row">
+                            <div class="col-lg-6 col-sm-6">
+                                <div class="footer-item">
+                                    <i class="fas fa-home"></i>
+                                    <div class="body">
+                                        <p><b> Trụ sở chính:</b>Lô B21-X3, tổ 12, Phường Cầu Diễn, Quận Nam Từ Liêm, Thành phố Hà Nội</p>
+                                        <p><b> Chi nhánh HCM:</b>Tầng 12, Tòa nhà Viettel, 285 Cách Mạng Tháng 8, P. 12, Q. 10, TP Hồ Chí Minh</p>
+                                    </div>
+                                </div>
+                                <div class="footer-item">
+                                    <i class="fas fa-phone-alt"></i>
+                                    <div class="body">
+                                        <p>
+                                            <span>LIÊN LẠC VỚI CHÚNG TÔI</span>
+                                            <br />
+                                            <span>Điện thoại:</span>(84) 0886 64 60 88
+                                            <br />
+                                            <span>Email:</span> sales@yokogawa-vn.com
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-sm-6">
+                                <p>
+                                    <b>Hotline kinh doanh: </b>
+                                    <br />
+                                    <span>(84) 89 664 8269 – Ms Ngọc Anh</span>
+                                    <br />
+                                    <span> (84) 89 663 8269 – Mr Trường</span>
+                                    <br />
+                                    <span>(84) 89 662 8296 – Ms Huyền Trang</span>
+                                </p>
+                                <p>
+                                    <b>Hotline kỹ thuật:</b>
+                                    <br />
+                                    <span>(84) 97 840 6132 (Mr. Dũng)</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="row">
+                            <div class="col-lg-6 col-sm-6 col-6">
+                                <p class="footer-title">linh nhanh</p>
+                                <div class="footer-link">
+                                    <a href="#">Giới thiệu chung</a>
+                                    <a href="#">Sản phẩm</a>
+                                    <a href="#">Dịch vụ</a>
+                                    <a href="#">Đào tạo</a>
+                                    <a href="#">Tin Công nghệ</a>
+                                    <a href="#">Liên hệ</a>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-sm-6 col-6">
+                                <p class="footer-title">chính sách</p>
+                                <div class="footer-link">
+                                    <a href="#">Chính sách đổi trả</a>
+                                    <a href="#">Điều khoản sử dụng</a>
+                                    <a href="#">Chính sách bảo mật</a>
+                                    <a href="#">Hướng dẫn thanh toán</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <div class="social">
+            <div class="social__container container">
+                <div class="row">
+                    <div class="col-lg-5 col-sm-5 col-12 item">
+                        <div class="title">Mạng xã hội</div>
+                        <div class="social-icon">
+                            <a href="">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-7 col-sm-7 col-12 form">
+                        <div class="title">ĐĂNG KÝ NHẬN TIN</div>
+                        <input type="text" placeholder="Để lại email của bạn..." class="email" />
+                        <input type="submit" value="THEO DÕI" class="submit" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">© 2021 V-Proud JSC. All rights reserved. Designed by Vicogroup.vn</div>
+        <div class="modal fade" id="myModal" role="dialog">
+            <div class="modal-dialog modal-sm">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <h4 class="modal-title">Modal Header</h4>
+                </div>
+                <div class="modal-body">
+                  <p>This is a small modal.</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.0/js/bootstrap.min.js"
+            integrity="sha512-XKa9Hemdy1Ui3KSGgJdgMyYlUg1gM+QhL6cnlyTe2qzMCYm4nAZ1PsVerQzTTXzonUR+dmswHqgJPuwCq1MaAg=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        ></script>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+        <script src="../assets/js/main.js"></script>
+        <script src="../assets/js/clone.js"></script>
+    </body>
+</html>

@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="../assets/fonts/fontawesome-free-5.15.3/css/all.min.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+            integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+            crossorigin="anonymous"
+        />
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+        <link rel="stylesheet" href="../assets/css/app.css" />
+    </head>
+    <body>
+        <a href="" id="back-to-top">
+            <i class="fas fa-arrow-up"></i>
+        </a>
+        <div class="opacity__menu"></div>
+        <header>
+            <div class="top-header">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-2 col-md-2">
+                            <a href="" class="logo">
+                                <img src="../assets/img/logo (12) 1.png" alt="" class="img-fluid" />
+                            </a>
+                        </div>
+                        <div class="col-lg-7 col-md-7">
+                            <form class="search-top" action="">
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <select class="form-control" name="" id="">
+                                            <option value="">Loại sản phẩm</option>
+                                            <option value="">Thiết bị đo cầm tay</option>
+                                            <option value="">Dưỡng kiểm</option>
+                                            <option value="">Thiết bị hiệu chuẩn</option>
+                                            <option value="">Thiết bị kiểm tra ngoại quan</option>
+                                        </select>
+                                    </div>
+                                    <input type="text" class="form-control" autocomplete="off" name="keyword" placeholder="Nhập tìm kiếm bằng từ khoá...." />
+                                    <div class="input-group-append">
+                                        <button type="submit" class="btn btn-search">
+                                            <i class="fas fa-search"></i>
+                                            <span>Tìm kiếm</span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-lg-3 col-md-3 d-flex align-items-center justify-content-between">
+                            <div class="icon-cart">
+                                <a href="">
+                                    <i class="fas fa-shopping-cart"></i>
+                                    <span id="itemshop">0</span>
+                                </a>
+                            </div>
+                            <div class="user d-flex align-items-center">
+                                <a href="#">
+                                    <i class="fas fa-user-circle icon-user"></i>
+                                </a>
+                                <div class="body">
+                                    <div class="login">
+                                        <a href="../login/register.html">Đăng ký</a>
+                                        /
+                                        <a href="../login/login.html">Đăng nhập</a>
+                                    </div>
+                                    <div class="account">
+                                        <span>Tài khoản</span>
+                                        <i class="fas fa-sort-down"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="icon-bar d-flex align-items-center justify-content-center">
+                                <i class="fas fa-bars bar__mobi"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header-mobi">
+                <div class="container">
+                    <div class="row align-items-center justify-content-between">
+                        <div class="logo">
+                            <img src="../assets/img/logo (12) 1.png" alt="" />
+                        </div>
+                        <div class="icon-mobi">
+                            <div class="icon-search">
+                                <i class="fas fa-search search-icon--mobi"></i>
+                            </div>
+                            <div class="icon-bar">
+                                <i class="fas fa-bars bar__mobi"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="search-mobi">
+                <form action="" method="get" class="search-form">
+                    <div class="search-input">
+                        <input type="text" name="keywords" class="search-control" placeholder="Từ khoá tìm kiếm" />
+                        <div class="mobile-search">
+                            <button class="search" type="submit">
+                                <i class="fas fa-search"></i>
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="menu">
+                <div class="menu-container container">
+                    <ul class="menu-list">
+                        <li>
+                            <a href="../product/main.html" class="menu-link">panme</a>
+                        </li>
+                        <li>
+                            <a href="../product/main.html" class="menu-link">caliper</a>
+                        </li>
+                        <li>
+                            <a href="../product/main.html" class="menu-link">tên danh mục</a>
+                            <ul class="sub-menu">
+                                <li>
+                                    <a href="" class="sub-link">tên danh mục</a>
+                                </li>
+                                <li>
+                                    <a href="" class="sub-link">tên danh mục</a>
+                                </li>
+                                <li>
+                                    <a href="" class="sub-link">tên danh mục</a>
+                                </li>
+                                <li>
+                                    <a href="" class="sub-link">tên danh mục</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="" class="menu-link">tên danh mục</a>
+                        </li>
+                        <li>
+                            <a href="" class="menu-link">tên danh mục</a>
+                        </li>
+                        <li>
+                            <a href="" class="menu-link">tên danh mục</a>
+                        </li>
+                        <li>
+                            <a href="" class="menu-link">tên danh mục</a>
+                        </li>
+                        <li>
+                            <a href="" class="menu-link">tên danh mục</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="mobile-menu">
+                <div>
+                    <a href="">
+                        <i class="fas fa-user-plus"></i>
+                        <div>Đăng ký / Đăng nhập</div>
+                    </a>
+                </div>
+                <div>
+                    <a href="">
+                        <i class="fas fa-shopping-cart"></i>
+                        <div>Giỏ hàng</div>
+                    </a>
+                </div>
+            </div>
+            <div class="header">
+                <ul class="header-list">
+                    <li class="header-item text-center">
+                        <img src="../assets/img/logo (12) 1.png" alt="" />
+                    </li>
+                    <li class="header-item">
+                        <a href="" class="header-link">Trang chủ</a>
+                    </li>
+                    <li class="header-item">
+                        <a href="" class="header-link">Giới thiệu</a>
+                    </li>
+                    <li class="header-item">
+                        <a href="" class="header-link">Sản phẩm</a>
+                        <ul class="sub-header">
+                            <li>
+                                <a href="">Tên danh mục</a>
+                            </li>
+                            <li>
+                                <a href="">Tên danh mục</a>
+                            </li>
+                            <li>
+                                <a href="">Tên danh mục</a>
+                            </li>
+                            <li>
+                                <a href="">Tên danh mục</a>
+                            </li>
+                            <li>
+                                <a href="">Tên danh mục</a>
+                            </li>
+                            <li>
+                                <a href="">Tên danh mục</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="header-item">
+                        <a href="" class="header-link">Tin tức</a>
+                    </li>
+                    <li class="header-item">
+                        <a href="" class="header-link">Dịch vụ</a>
+                    </li>
+                    <li class="header-item">
+                        <a href="" class="header-link">Đào tạo</a>
+                    </li>
+                    <li class="header-item">
+                        <a href="" class="header-link">Liên hệ</a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+        <div class="box-breadcrumb">
+            <div class="container">
+                <ul class="breadcrumb">
+                    <li class="breadcrumb-item">
+                        <a href="#">Trang chủ</a>
+                    </li>
+                    <li class="breadcrumb-item active">
+                        <a href="#">Giỏ hàng</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <section class="contact">
+            <div class="container contact-container">
+                <div class="row">
+                    <div class="col-lg-6 mb-3">
+                        <div class="embed-responsive embed-responsive-4by3 map">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d476859.2078416492!2d105.37249038607519!3d20.974087358073746!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135008e13800a29%3A0x2987e416210b90d!2zSMOgIE7hu5lpLCBWaeG7h3QgTmFt!5e0!3m2!1svi!2s!4v1611286512403!5m2!1svi!2s"
+                                width="600"
+                                height="450"
+                                frameborder="0"
+                                style="border: 0"
+                                allowfullscreen="allowfullscreen"
+                                aria-hidden="false"
+                                tabindex="0"
+                            ></iframe>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="box-contact">
+                            <div class="contact-header">Công ty cổ phần V-PROUD hân hạnh đc hỗ trợ quý khách</div>
+                            <form action="" method="post">
+                                <div class="form-group form-row">
+                                    <div class="col-lg-6 col-md-6 col-12">
+                                        <select id="" class="form-control" name="">
+                                            <option value="-1">Chọn chủ đề</option>
+                                            <option value="1">Tư vấn</option>
+                                            <option value="2">Khiếu nại - Phản ánh</option>
+                                            <option value="3">Hợp tác với V-PROUD</option>
+                                            <option value="4">Góp ý cải tiến</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-12">
+                                        <input
+                                            class="form-control"
+                                            data-val="true"
+                                            data-val-length="Tối đa 50 ký tự"
+                                            data-val-length-max="50"
+                                            data-val-required="Hãy nhập họ và tên"
+                                            id="Fullname"
+                                            name="Fullname"
+                                            placeholder="Họ và tên"
+                                            required="required"
+                                            type="text"
+                                        />
+                                    </div>
+                                </div>
+                                <div class="form-group form-row">
+                                    <div class="col-lg-6 col-md-6 col-12">
+                                        <input class="form-control" name="Address" type="text" value="" placeholder="Địa chỉ" />
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-12">
+                                        <input class="form-control" name="Email" type="text" value="" placeholder="Địa chỉ Email" />
+                                    </div>
+                                </div>
+                                <div class="form-group form-row">
+                                    <div class="col-lg-6 col-md-6 col-12">
+                                        <input class="form-control" name="Mobile" type="text" value="" placeholder="Số điện thoại" />
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-12">
+                                        <select id="" class="form-control" name="">
+                                            <option value="-1">Chọn phương thức liên hệ lại</option>
+                                            <option value="1">Gọi điện lại</option>
+                                            <option value="2">Gửi mail</option>
+                                            <option value="3">Gửi tin nhắn SMS</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="form-group form-row">
+                                    <div class="col-lg-12 col-md-12 col-12">
+                                        <textarea
+                                            class="form-control"
+                                            cols="20"
+                                            data-val="true"
+                                            data-val-length="The field Nội dung must be a string with a maximum length of 4000."
+                                            data-val-length-max="4000"
+                                            id="Body"
+                                            name="Body"
+                                            placeholder="Yêu cầu thêm"
+                                            rows="4"
+                                        ></textarea>
+                                    </div>
+                                </div>
+                                <div class="text-center">
+                                    <a href="" class="btn btn-outline-light px-5">Gửi liên hệ</a>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="service">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-sm-6 col-md-6 col-12">
+                        <div class="item">
+                            <div class="icon">
+                                <i class="fas fa-truck-moving"></i>
+                            </div>
+                            <div class="body">
+                                <div class="title">Giao miễn phí</div>
+                                <div class="des">Cho đơn hàng trên 5 triệu</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 col-md-6 col-12">
+                        <div class="item">
+                            <div class="icon">
+                                <i class="fas fa-sync-alt"></i>
+                            </div>
+                            <div class="body">
+                                <div class="title">30 ngày đổi trả</div>
+                                <div class="des">Đổi trả miễn phí</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 col-md-6 col-12">
+                        <div class="item">
+                            <div class="icon">
+                                <i class="fas fa-medal"></i>
+                            </div>
+                            <div class="body">
+                                <div class="title">chất lượng uy tín</div>
+                                <div class="des">Từ các thương hiệu lớn</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 col-md-6 col-12">
+                        <div class="item">
+                            <div class="icon">
+                                <i class="fas fa-headphones"></i>
+                            </div>
+                            <div class="body">
+                                <div class="title">Hỗ trợ miễn phí</div>
+                                <div class="des">Hỗ trợ 24/7</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-7">
+                        <div class="footer-name">CÔNG TY CỔ PHẦN V-PROUD</div>
+                        <div class="row">
+                            <div class="col-lg-6 col-sm-6">
+                                <div class="footer-item">
+                                    <i class="fas fa-home"></i>
+                                    <div class="body">
+                                        <p><b> Trụ sở chính:</b>Lô B21-X3, tổ 12, Phường Cầu Diễn, Quận Nam Từ Liêm, Thành phố Hà Nội</p>
+                                        <p><b> Chi nhánh HCM:</b>Tầng 12, Tòa nhà Viettel, 285 Cách Mạng Tháng 8, P. 12, Q. 10, TP Hồ Chí Minh</p>
+                                    </div>
+                                </div>
+                                <div class="footer-item">
+                                    <i class="fas fa-phone-alt"></i>
+                                    <div class="body">
+                                        <p>
+                                            <span>LIÊN LẠC VỚI CHÚNG TÔI</span>
+                                            <br />
+                                            <span>Điện thoại:</span>(84) 0886 64 60 88
+                                            <br />
+                                            <span>Email:</span> sales@yokogawa-vn.com
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-sm-6">
+                                <p>
+                                    <b>Hotline kinh doanh: </b>
+                                    <br />
+                                    <span>(84) 89 664 8269 – Ms Ngọc Anh</span>
+                                    <br />
+                                    <span> (84) 89 663 8269 – Mr Trường</span>
+                                    <br />
+                                    <span>(84) 89 662 8296 – Ms Huyền Trang</span>
+                                </p>
+                                <p>
+                                    <b>Hotline kỹ thuật:</b>
+                                    <br />
+                                    <span>(84) 97 840 6132 (Mr. Dũng)</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="row">
+                            <div class="col-lg-6 col-sm-6 col-6">
+                                <p class="footer-title">linh nhanh</p>
+                                <div class="footer-link">
+                                    <a href="#">Giới thiệu chung</a>
+                                    <a href="#">Sản phẩm</a>
+                                    <a href="#">Dịch vụ</a>
+                                    <a href="#">Đào tạo</a>
+                                    <a href="#">Tin Công nghệ</a>
+                                    <a href="#">Liên hệ</a>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-sm-6 col-6">
+                                <p class="footer-title">chính sách</p>
+                                <div class="footer-link">
+                                    <a href="#">Chính sách đổi trả</a>
+                                    <a href="#">Điều khoản sử dụng</a>
+                                    <a href="#">Chính sách bảo mật</a>
+                                    <a href="#">Hướng dẫn thanh toán</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <div class="social">
+            <div class="social__container container">
+                <div class="row">
+                    <div class="col-lg-5 col-sm-5 col-12 item">
+                        <div class="title">Mạng xã hội</div>
+                        <div class="social-icon">
+                            <a href="">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-7 col-sm-7 col-12 form">
+                        <div class="title">ĐĂNG KÝ NHẬN TIN</div>
+                        <input type="text" placeholder="Để lại email của bạn..." class="email" />
+                        <input type="submit" value="THEO DÕI" class="submit" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">© 2021 V-Proud JSC. All rights reserved. Designed by Vicogroup.vn</div>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.0/js/bootstrap.min.js"
+            integrity="sha512-XKa9Hemdy1Ui3KSGgJdgMyYlUg1gM+QhL6cnlyTe2qzMCYm4nAZ1PsVerQzTTXzonUR+dmswHqgJPuwCq1MaAg=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        ></script>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+        <script src="../assets/js/main.js"></script>
+        <script src="../assets/js/clone.js"></script>
+    </body>
+</html>
