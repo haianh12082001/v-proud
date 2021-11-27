@@ -302,7 +302,7 @@ body {
     transform: scale(0);
     transition: transform 0.8s ease;
     transform-origin: top left;
-    z-index: 2;
+    z-index: 3;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
   }
 }
