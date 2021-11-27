@@ -350,13 +350,8 @@
             p {
                 margin: 0;
             }
-            &.active {
-                .expand {
-                    display: none;
-                }
-                .collapse {
-                    display: block;
-                }
+            .collapse {
+                display: none;
             }
         }
     }

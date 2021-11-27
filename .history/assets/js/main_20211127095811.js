@@ -18,7 +18,7 @@ $(function () {
     ////  Article
     $('.article .article-btn').click(function () {
         $('.article .box-content').toggleClass('active');
-        $('.article .article-btn').toggleClass('active');
+        $('.article .box-content').toggleClass('active');
     })
     //// SEARCH-MOBI
     $('.search-icon--mobi').click(function () {

@@ -350,11 +350,9 @@
             p {
                 margin: 0;
             }
-            &.active {
-                .expand {
-                    display: none;
-                }
-                .collapse {
+            .collapse {
+                display: none;
+                &.active {
                     display: block;
                 }
             }

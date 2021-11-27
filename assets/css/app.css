@@ -1037,8 +1037,8 @@ body {
   overflow: inherit;
 }
 .product-details .article-btn {
-  display: flex;
-  justify-content: center;
+  display: table;
+  margin: 0 auto;
 }
 .product-details .article-btn span {
   width: 300px;
@@ -1053,6 +1053,12 @@ body {
 }
 .product-details .article-btn p {
   margin: 0;
+}
+.product-details .article-btn.active .expand {
+  display: none;
+}
+.product-details .article-btn.active .collapse {
+  display: block;
 }
 .product-details .trademark {
   font-size: 14px;
